@@ -20,6 +20,7 @@ Paste into Run Menu (Windows Key+R) and hit Control+Shift+Enter, then accept UAC
 powershell -W H -NOP -NONI reg add HKCU\Software\Policies\Microsoft\Windows\WindowsCopilot /v "TurnOffWindowsCopilot" /t REG_DWORD /f /d 1
 ```
 ### Re-Enable
+Yes, setting the value to 0 works just as well as deleting the key outright! 
 ```
 powershell -W H -NOP -NONI reg add HKCU\Software\Policies\Microsoft\Windows\WindowsCopilot /v "TurnOffWindowsCopilot" /t REG_DWORD /f /d 0
 ```
