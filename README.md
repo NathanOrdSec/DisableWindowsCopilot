@@ -1,5 +1,5 @@
 # DisableWindowsCopilot
-
+Drop these commands to enable or disable Windows Copilot into a Administrator PowerShell window.
 ## Disable Windows Copilot
 ```
 New-Item -Path HKCU\Software\Policies\Microsoft\Windows\WindowsCopilot -Force
