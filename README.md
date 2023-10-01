@@ -6,6 +6,7 @@ reg add HKCU\Software\Policies\Microsoft\Windows\WindowsCopilot /v "TurnOffWindo
 ```
 
 ## Re-Enable Windows Copilot
+Upon re-enabling, you might have to go toggle Copilot visibility.
 ```
 reg delete HKCU\Software\Policies\Microsoft\Windows\WindowsCopilot /f
 ```
