@@ -11,7 +11,7 @@ Upon re-enabling, you might have to toggle Copilot visibility in "Taskbar Settin
 reg delete HKCU\Software\Policies\Microsoft\Windows\WindowsCopilot /f
 ```
 
-## One-Liners!
+## Run Box One-Liners!
 Paste into Run Menu (Windows Key+R) and hit Control+Shift+Enter, then accept UAC prompt
 ### Disable
 ```
