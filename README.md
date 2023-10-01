@@ -1,5 +1,7 @@
 # DisableWindowsCopilot
-Drop these commands to enable or disable Windows Copilot into an Administrator PowerShell window. You may have to click Copilot for it to yeet itself. 
+You can download the .reg files and run them from wherever to disable (DownedPilot) and re-enable (RevivePilot) Copilot on Windows.
+
+Alternatively, drop these commands to enable or disable Windows Copilot into an Administrator PowerShell window. You may have to click Copilot for it to yeet itself. 
 ## Disable Windows Copilot
 ```
 reg add HKCU\Software\Policies\Microsoft\Windows\WindowsCopilot /v "TurnOffWindowsCopilot" /t REG_DWORD /f /d 1
